@@ -1,8 +1,12 @@
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <h1 className=' text-5xl font-bold text-orange-500'>
-      Hellow World!
-    </h1>
+    <>
+      <h1 className=' text-5xl font-bold text-orange-500'>
+        Hellow World!
+      </h1>
+      <Button>Click me</Button>
+    </>
   )
 }
