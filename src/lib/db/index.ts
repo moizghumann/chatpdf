@@ -15,3 +15,5 @@ const sql = neon(process.env.DATABASE_URL);
 
 // creating a method to do database operations using drizzle
 export const db = drizzle(sql);
+
+// next step is to define schemas to define shapes of the data
