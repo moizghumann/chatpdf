@@ -1,4 +1,4 @@
-import { Config } from 'drizzle-kit'
+import type { Config } from 'drizzle-kit'
 import * as dotenv from 'dotenv'
 
 // since variables inside .env file are only accessible within src directory, dotenv lib allows us to access those variables outside src
@@ -11,3 +11,5 @@ export default {
         connectionString: process.env.DATABASE_URL!
     }
 } satisfies Config
+
+// npx drizzle-kit push:pg
